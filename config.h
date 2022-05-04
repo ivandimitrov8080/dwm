@@ -29,7 +29,10 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class	instance    title       tags mask     isfloating   monitor */
-	{ "Brave",	NULL,       NULL,       2 << 0,       0,           -1 },
+	{ "Brave",	NULL,       NULL,       1 << 1,       0,           -1 },
+	{ "Steam",	NULL,       NULL,       1 << 2,       0,           -1 },
+	{ "dota2",	NULL,       NULL,       1 << 3,       0,           -1 },
+	{ "csgo",	NULL,       NULL,       1 << 3,       0,           -1 },
 };
 
 /* layout(s) */
